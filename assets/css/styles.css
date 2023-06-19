@@ -5,7 +5,7 @@
     --gray:#495057;
     --white:#ffffff;
     --darkGray:#343A40;
-    --font:#E5E5E5
+    --font:  #eaf2f8  
 
 
 }
@@ -16,5 +16,43 @@
     font-family: 'Inter', sans-serif;
 }
 body{
-    background-color:  #E5E5E5;
+    background:var(--font);
+    padding: 24px 16px;
+    width: 100%;
+}
+textarea{
+    border: none;
+    width: 100%;
+}
+
+
+.ingreso{
+    background: var(--font);
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--darkBlue);
+    text-align: start;
+   
+}
+
+.ingreso::placeholder{
+    color: black;
+}
+.advertencia{
+    display: flex;
+    color: var(--darkGray);
+    gap: 10px;
+}
+.advertencia div{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    color: var(--white);
+    background: var(--darkGray);
+    display: grid;
+    justify-content: center;
+    align-items:center;
+}
+i{
+    font-size: 12px;
 }

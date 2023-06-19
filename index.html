@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="shortcut icon" href="/assets/images/Logo alura.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Encriptador</title>
   </head>
   <body>
@@ -10,13 +13,18 @@
       <img src="/assets/images/Logo alura.png" alt="" />
     </header>
     <main>
-      <section>
-        <textarea name="" id="" cols="30" rows="10">
-                Ingrese el texto aqui
-            </textarea
-        >
-        <p></p>
-        <div>
+      <section class="ingreso-container">
+        <textarea class="ingreso" placeholder="Ingrese el texto aqui" name="" id="" rows="10">
+        
+        </textarea>
+        <div class="advertencia">
+          <div>
+            <i class="fa-solid fa-exclamation"></i>
+          </div>
+          <p>Solo letras minúsculas y sin acentos</p>
+        </div>
+        
+        <div class="btn-container">
           <button class="encriptar">Encriptar</button>
           <button class="desencriptar">Desencriptar</button>
         </div>
