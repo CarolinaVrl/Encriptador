@@ -56,3 +56,31 @@ textarea{
 i{
     font-size: 12px;
 }
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+    gap: 18px;
+    
+
+}
+.btn-container button{
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+}
+.btn-container button:hover{
+    cursor: pointer;
+}
+.encriptar{
+    color: var(--white);
+    background: var(--darkBlue);
+    border: none;
+
+}
+.desencriptar{
+    color: var(--darkBlue);
+    background: none;
+    border: 1px solid var(--darkBlue);
+
+}
